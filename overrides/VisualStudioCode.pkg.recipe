@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.VisualStudioCode</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Visual Studio Code</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.amsysuk-recipes.pkg.VisualStudioCode</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.amsysuk-recipes.pkg.VisualStudioCode</key>
+			<dict>
+				<key>git_hash</key>
+				<string>000211528b205f7993b8ce82633583bcb7f7ae29</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.moofit-recipes/Microsoft/VisualStudioCode.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f74b40bbf846670b97f560f782ba0fc1774ec2a327a3f82df62af8bf3ec3dbd3</string>
+			</dict>
+			<key>com.github.valdore86.download.visualstudiocode</key>
+			<dict>
+				<key>git_hash</key>
+				<string>95653b24d2c8b23d0540cf2dc69616a3596dfba3</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.valdore86-recipes/Visual Studio Code/VisualStudioCode.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>dbcbdeda69f346df5ac49f45a0b029b6a91a76b1cb6785e058293859bb04ae66</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

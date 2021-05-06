@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.SourceTree</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>SourceTree</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.pkg.SourceTree</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.SourceTree</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b27f942c707bc947adfe995add236701b693b332</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Atlassian/SourceTree.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5b093ed21098bab0163316f8455687503b4965d5214556a76ca39ecd13b38285</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.SourceTree</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4c4df83d91d38f3ef61e46c002bcc06f4da367fe</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Atlassian/SourceTree.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>74133657248bf7e7d31d539fcd3cca942624ef353872297e3fa6fa882d0b7917</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

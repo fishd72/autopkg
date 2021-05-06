@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.coconutBattery</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.coconut-flavour.coconutBattery</string>
+		<key>NAME</key>
+		<string>coconutBattery</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://coconut-flavour.com/updates/coconutBattery.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.pkg.coconutBattery</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.coconutBattery</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9b0234d95b80ae32897d954ef507d569599a6918</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/coconutBattery/coconutBattery.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>54aa4af7cf13ea1de224bc6a103adec2f23d58ba01e22a93f1afda853b284dc7</string>
+			</dict>
+			<key>com.github.homebysix.pkg.coconutBattery</key>
+			<dict>
+				<key>git_hash</key>
+				<string>49e6a3372651c024a7e4147a205707a74b98a6b1</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/coconutBattery/coconutBattery.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>3a23bd9a77e4e1a40c5cfb7d3c36acaeaa4a4e6f85c395a755298c88172d157e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

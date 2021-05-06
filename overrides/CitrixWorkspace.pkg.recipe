@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.CitrixWorkspace</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Citrix Workspace</string>
+		<key>SOFTWARETITLE</key>
+		<string>Workspace</string>
+		<key>VENDOR</key>
+		<string>Citrix</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.pkg.citrixworkspace</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.citrixworkspace</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0823d44cf538681401965137180de5f455eae41e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/CitrixWorkspace/CitrixWorkspace.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c7c2051c4698f5e076f308f30793bd6e75aaa9cc4d94253edcaabdd7a4bf1b77</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.citrixworkspace</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0823d44cf538681401965137180de5f455eae41e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/CitrixWorkspace/CitrixWorkspace.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>d69176542da735ca4c731b6565126e568f5c2823d652eae0e23cbb2ef622f445</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

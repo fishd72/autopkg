@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.Docker</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.docker.docker</string>
+		<key>NAME</key>
+		<string>Docker</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://download.docker.com/mac/stable/appcast.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.chilcote.pkg.Docker</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.homebysix.FindAndReplace/FindAndReplace</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b9c1484128d1f5308bb66dcc4ca9e1be3536b0fc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/FindAndReplace/FindAndReplace.py</string>
+				<key>sha256_hash</key>
+				<string>cf89378251379b98005e16119d69abe798f54150139645934a040689cd9213e6</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.chilcote.download.Docker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bee94c240d2acd429922fa09b7115ae6508ba01a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.chilcote-recipes/Docker/Docker.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8e99503cc6b8e2d59a4a7ada035a6c35e9b371707ec8870280455322afe92ea6</string>
+			</dict>
+			<key>com.github.chilcote.pkg.Docker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a19b38c3cb517da97958b62e876ce8a134f22236</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.chilcote-recipes/Docker/Docker.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>70486bbe94e3af061acff6eec39b2611b54dbf0dcdf4f2cdea6d5f041188cdb4</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

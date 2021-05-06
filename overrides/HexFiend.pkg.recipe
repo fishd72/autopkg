@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.HexFiend</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>Hex Fiend</string>
+		<key>BUNDLE_ID</key>
+		<string>com.ridiculousfish.HexFiend</string>
+		<key>NAME</key>
+		<string>Hex Fiend</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.fishd72.pkg.HexFiend</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.fishd72.pkg.HexFiend</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f72ab636dcfe834aee39c5b32024a6c675232042</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.fishd72-recipes/HexFiend/HexFiend.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>2fba5d7573b495c417ecb7ea8f8e636866f8260821de7b45048cdefb79c75942</string>
+			</dict>
+			<key>com.github.michalmmac.download.HexFiend</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c34816556ae4bdf2a5b6196c195cb547183a5500</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.MichalMMac-recipes/HexFiend/HexFiend.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>10793e42279de57eab80173f9a6f941bd07690eebf6f2712c2c5caa21c5741c4</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

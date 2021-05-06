@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.desktoppr</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Desktoppr</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.moofit-recipes.pkg.Desktoppr</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.moofit-recipes.download.Desktoppr</key>
+			<dict>
+				<key>git_hash</key>
+				<string>12861a07e9f9215bdc387008df6cda1e109c010b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.moofit-recipes/Desktoppr/Desktoppr.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>f4d062184b45c77bb71bb1987e30223dbfb511eadf3bcf4b02c81dc199d2c4ef</string>
+			</dict>
+			<key>com.github.moofit-recipes.pkg.Desktoppr</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.moofit-recipes/Desktoppr/desktoppr.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>b6cd37c52a03597393ab8e1f95c12ce1452e2b77dfb94886adaa01bf3923a75d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

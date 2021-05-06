@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.NodeJS</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_PATTERN</key>
+		<string>node-v([0-9\.]+).pkg</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://nodejs.org/dist/latest/</string>
+		<key>NAME</key>
+		<string>NodeJS</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.novaksam.pkg.NodeJS</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.novaksam.download.NodeJS</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0d173f7ee3e80d71bd3d698045e3646da1817bfc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - Download/NodeJS.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0b2d7fb9026159f377d66166147d4825a2674c96d4aef0ab03e728bc5beab9f8</string>
+			</dict>
+			<key>com.github.novaksam.pkg.NodeJS</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0d173f7ee3e80d71bd3d698045e3646da1817bfc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/NodeJS.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>a888b6d93acae47c7a4eccede3bf4e3a7f84f0d8b4df0526ce9d0bd4c58f67db</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

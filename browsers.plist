@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>postprocessors</key>
+    <array>
+        <string>io.github.hjuutilainen.VirusTotalAnalyzer/VirusTotalAnalyzer</string>
+        <string>com.scriptingosx.processors/Archive</string>
+    </array>
+    <key>recipes</key>
+    <array>
+      <string>Firefox.pkg</string>
+      <string>GoogleChromePkg.pkg</string>
+      <string>GoogleChromeCanary.pkg</string>
+      <string>MicrosoftEdge.pkg</string>
+      <string>Opera.pkg</string>
+    </array>
+    <key>archive_directory</key>
+    <string>/Users/Shared/AutoPKG</string>
+</dict>
+</plist>

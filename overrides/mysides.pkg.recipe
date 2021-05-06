@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.mysides</string>
+	<key>Input</key>
+	<dict>
+		<key>GITHUB_REPO</key>
+		<string>mosen/mysides</string>
+		<key>NAME</key>
+		<string>mySides</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.moofit-recipes.pkg.mySides</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.moofit-recipes.pkg.mySides</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.moofit-recipes/mySides/mysides.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>720c2206e6c2444507dc9afddcdda81de762e0e3ab266a90f6650863e91f8e1a</string>
+			</dict>
+			<key>com.github.mosen.download.mysides</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3940bf909c977d649d2191234d4d4212ef4d3e03</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.mosen-recipes/mysides/mysides.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>26ed34fd7b14108ac4481c4ada09a91eab95c61da419f6d821b9fec709b2da9e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.SublimeText3</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Sublime Text</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://www.sublimetext.com/updates/3/stable/appcast_osx.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.justinrummel.pkg.SublimeText3</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.keeleysam.recipes.SublimeText.SublimeText3.download</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9ea4ad1be9603bc312c439c6810a9e07c374e9fc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes/SublimeText/SublimeText3.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5bd3875dc38bce30bcfc921627db5f0e8bb375509ec6ff360e5ce319152aa0d8</string>
+			</dict>
+			<key>com.justinrummel.pkg.SublimeText3</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7a5d98dd4477a5a35b8615e571ac7bc76621b1d6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes/SublimeText/SublimeText3.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>046395feae626b861c4ecb0dc6ef21969f90a4a31c7777f541b9631c34c86558</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

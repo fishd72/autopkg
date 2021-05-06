@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.DrawIO</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>draw.io</string>
+		<key>BUNDLE_ID</key>
+		<string>com.jgraph.drawio.desktop</string>
+		<key>NAME</key>
+		<string>draw.io</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.fishd72.pkg.DrawIO</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.fishd72.pkg.DrawIO</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f72ab636dcfe834aee39c5b32024a6c675232042</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.fishd72-recipes/DrawIO/DrawIO.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f3d5c44b70da2820c2d1ee71a11a6ccc5f9ee0419ec032e6a36828bac5c5e26a</string>
+			</dict>
+			<key>com.github.michalmmac.download.draw.io</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d314e79baa94e7436b7702adff444ac382e0a084</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.MichalMMac-recipes/draw.io/draw.io.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>7aadbb7aa1627421b534c9183848c5fd95e8e7f8e7ae7e13ffd98b6eff6581ac</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

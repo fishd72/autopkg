@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.Mattermost</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Mattermost</string>
+		<key>os</key>
+		<string>mac</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jlehikoinen.pkg.Mattermost</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jlehikoinen.pkg.Mattermost</key>
+			<dict>
+				<key>git_hash</key>
+				<string>542b8cb7745e6498f0e6e1ae86f5ff24862d82c3</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jlehikoinen-recipes/Mattermost/Mattermost.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f4f8a18dafdf67282a0cc68667926a8b9a78f63468a22d5a47d0aca89bc61ee1</string>
+			</dict>
+			<key>com.github.peshay.download.Mattermost</key>
+			<dict>
+				<key>git_hash</key>
+				<string>26aeaf664a7fa5926d804fbe3c24fd123bbb5d25</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.peshay-recipes/Mattermost/Mattermost.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>d4bb85864a4f56097d4dd23046c417bed2fdf652779365dbcbb547581fc5ebbe</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

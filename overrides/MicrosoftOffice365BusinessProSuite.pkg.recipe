@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.MicrosoftOffice365BusinessProSuite</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL_BASE</key>
+		<string>https://go.microsoft.com/fwlink/?linkid=</string>
+		<key>ID</key>
+		<string>2009112</string>
+		<key>NAME</key>
+		<string>Microsoft Office 365 Business Pro Suite</string>
+		<key>SOFTWARETITLE1</key>
+		<string>Office</string>
+		<key>SOFTWARETITLE2</key>
+		<string>Business</string>
+		<key>SOFTWARETITLE3</key>
+		<string>Pro</string>
+		<key>SOFTWARETITLE4</key>
+		<string>Suite</string>
+		<key>VENDOR</key>
+		<string>Microsoft</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.pkg.MicrosoftOffice365BusinessProSuite</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.rtrouton.download.MicrosoftOffice365Suite/OfficeSuiteSKULessVersionProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5cc855ecb6a1236501bfde7677339da3a8557cab</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftOffice365Suite/OfficeSuiteSKULessVersionProvider.py</string>
+				<key>sha256_hash</key>
+				<string>e16fcb716db59ec3869eb005d30e3d267cebb314167845bceb3224fc304ff2f3</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.MicrosoftOffice365BusinessProSuite</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f20c76b590938a848c61201567a728d44b328ccc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftOffice365BusinessProSuite/MicrosoftOffice365BusinessProSuite.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>d69c3c87d7e837a9b1d6b74c5856747c9b1708c90c165a4e10cdbec7b47e118f</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.MicrosoftOffice365BusinessProSuite</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cfa119a8063eca89e9277af248bc27ba76b25029</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftOffice365BusinessProSuite/MicrosoftOffice365BusinessProSuite.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>993bcdfe3bcf57ec48bbf3b896a9860e869f6f39f86bbc1ab38af6af52746cbf</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

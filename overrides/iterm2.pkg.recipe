@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.iterm2</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>iTerm2</string>
+		<key>RELEASE</key>
+		<string>final</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.pkg.iTerm2</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.iTerm2</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2144a7f81149788fa2f26e1460579d44a2f88cc6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/iTerm2/iTerm2.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e4b6f5ddfded53426a8866832ce4241543030db66f95aa91ea0419c1aa14820d</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.iTerm2</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0932908b391cabfd8d440c3a455e0ad0e63a706b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/iTerm2/iTerm2.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>478cd9ae05f4149b01b2186faf8b13038b680564391a3072087f0df0a10c649b</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.MicrosoftDefenderATP</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOADURL</key>
+		<string>https://go.microsoft.com/fwlink/?linkid=%PRODUCTID%</string>
+		<key>NAME</key>
+		<string>Microsoft Defender ATP</string>
+		<key>PRODUCTID</key>
+		<string>2097502</string>
+		<key>SOFTWARETITLE</key>
+		<string>Defender</string>
+		<key>SOFTWARETYPE</key>
+		<string>ATP</string>
+		<key>VENDOR</key>
+		<string>Microsoft</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.pkg.microsoftdefenderatp</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.microsoftdefenderatp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>de2ec3eb77045ade6f7dd52cb4a6d11dc7fe5ee7</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftDefenderATP/MicrosoftDefenderATP.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5ec46190294527902aaf0fc4a6762aa67656bb89334717bb1dff22aeb85fcdea</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.microsoftdefenderatp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>de2ec3eb77045ade6f7dd52cb4a6d11dc7fe5ee7</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftDefenderATP/MicrosoftDefenderATP.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>fd0c22fa075f0d8659c10f9941ecc9ec5a842add38ab863d6eef4fb2b67eabe8</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

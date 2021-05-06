@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.GIMP</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>GIMP</string>
+		<key>SEARCH_PATTERN</key>
+		<string>(?P&lt;url&gt;download.gimp.org/mirror/pub/gimp/v.*?/osx/gimp-.*?.dmg)</string>
+		<key>SEARCH_URL</key>
+		<string>https://www.gimp.org/downloads/</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.hansen-m.pkg.gimp</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.gimp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>97749ce4bf422e482387d9a09f168965f3269ab5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/GIMP/GIMP.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>faf5488e64dd04a2cbf9c77d13f7ed34abc0b0dde7cca65244353d5900c2a7f9</string>
+			</dict>
+			<key>com.github.hansen-m.pkg.gimp</key>
+			<dict>
+				<key>git_hash</key>
+				<string>90ffe5e634685de44750492d9524c4aa7b880c32</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/GIMP/GIMP.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>971274a9dede8c94c09a98d14262231b727eec537d38f067b63076379473bc70</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

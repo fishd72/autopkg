@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.AndroidStudio</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Android Studio</string>
+		<key>SEARCH_PATTERN</key>
+		<string>(https\://redirector\.gvt1\.com/edgedl/android/studio/install/.+/android-studio-ide.+\.dmg)</string>
+		<key>SEARCH_URL</key>
+		<string>https://developer.android.com/studio</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.novaksam.pkg.AndroidStudio</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.autopkg.novaksam-recipes.Processors/MinimumOSExtractor</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1e57d4667fac345d2cfc22a797e7037a857f4bc2</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Processors/MinimumOSExtractor.py</string>
+				<key>sha256_hash</key>
+				<string>114d27c34bcb9c133b359ffd88c6b7f62b4c596e24575dba1bd9474caec9fb8d</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.novaksam.download.AndroidStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0785283e261d413bb1256d1c092b20716651b2de</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - Download/AndroidStudio.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8f13531a8aa4011b927774882258e67e8779313301112a01682e4bb3e8e46cce</string>
+			</dict>
+			<key>com.github.novaksam.pkg.AndroidStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d06894385bfd138888cc6ff608c168b4335d24f9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/AndroidStudio.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>e8cb5a8cccaa6eec7179bec0209f98c025dc854e3ef73f11edf72884e687c35d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

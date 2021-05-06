@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.NoMAD</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>NoMAD</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.tbridge.pkg.NoMAD</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.tbridge.download.NoMAD</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d89c3d3f8c6244a352bfd6d5eea143d4ba96a319</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.tbridge-recipes/NoMAD/NoMAD.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>dc33ad659b3bb85198cb57f23639d711f0d293fb5eb434b81c583a39304aaf40</string>
+			</dict>
+			<key>com.github.tbridge.pkg.NoMAD</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d2774ae30f3e8fcb3e6463e962b01c35539717a1</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.tbridge-recipes/NoMAD/NoMAD.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>13d93c10044e73a2714eeb8f22e0fcfe412272e2f7fc2c2a43ccafe8c85b4d14</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

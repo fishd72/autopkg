@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>postprocessors</key>
+    <array>
+      <string>io.github.hjuutilainen.VirusTotalAnalyzer/VirusTotalAnalyzer</string>
+    </array>
+    <key>recipes</key>
+    <array>
+      <string>AdobeCreativeCloudInstaller.jss</string>
+      <string>AdobeReaderDC.jss</string>
+      <string>AndroidStudio.jss</string>
+      <string>Atom.jss</string>
+      <string>coconutBattery.jss</string>
+      <string>Docker.jss</string>
+      <string>DrawIO.jss</string>
+      <string>GIMP.jss</string>
+      <string>HexFiend.jss</string>
+      <string>IDEA-IU.jss</string>
+      <string>IntelliJ-CE.jss</string>
+      <string>iTerm2.jss</string>
+      <string>Jenkins.download</string>
+      <string>Mattermost.jss</string>
+      <string>NodeJS.jss</string>
+      <string>Privileges.jss</string>
+      <string>Sketch.jss</string>
+      <string>SourceTree.jss</string>
+      <string>SpringToolSuite.jss</string>
+      <string>SublimeText3.jss</string>
+      <string>TheUnarchiver.jss</string>
+      <string>VisualStudioCode.jss</string>
+      <string>Firefox.jss</string>
+      <string>GoogleChrome.jss</string>
+      <string>GoogleChromeCanary.jss</string>
+      <string>Opera.jss</string>
+      <string>CitrixWorkspace.jss</string>
+      <string>Desktoppr.jss</string>
+      <string>dockutil.jss</string>
+      <string>mySides.jss</string>
+      <string>NoMAD.jss</string>
+      <string>MicrosoftOffice365BusinessProSuite.jss</string>
+      <string>MicrosoftRemoteDesktop.jss</string>
+      <string>MicrosoftTeams.jss</string>
+      <string>MicrosoftSkypeForBusiness365.jss</string>
+      <string>MicrosoftEdge.jss</string>
+    </array>
+</dict>
+</plist>
