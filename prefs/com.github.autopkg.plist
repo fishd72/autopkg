@@ -6,16 +6,6 @@
 	<string>~/autopkg/overrides</string>
 	<key>RECIPE_REPOS</key>
 	<dict>
-		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.48kRAM-recipes</key>
-		<dict>
-			<key>URL</key>
-			<string>https://github.com/autopkg/48kRAM-recipes</string>
-		</dict>
-		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.48kram-recipes</key>
-		<dict>
-			<key>URL</key>
-			<string>https://github.com/autopkg/48kram-recipes</string>
-		</dict>
 		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.MichalMMac-recipes</key>
 		<dict>
 			<key>URL</key>
@@ -305,7 +295,6 @@
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.blackthroat-recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.amsysuk-recipes</string>
-		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.48kram-recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.tbridge-recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jlehikoinen-recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rderewianko-recipes</string>
