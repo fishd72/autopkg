@@ -22,11 +22,11 @@
 			<key>com.github.autopkg.novaksam-recipes.Processors/MinimumOSExtractor</key>
 			<dict>
 				<key>git_hash</key>
-				<string>1e57d4667fac345d2cfc22a797e7037a857f4bc2</string>
+				<string>ef08795d3e7810cbf5305b7a135d85e5ae21b6b9</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Processors/MinimumOSExtractor.py</string>
 				<key>sha256_hash</key>
-				<string>114d27c34bcb9c133b359ffd88c6b7f62b4c596e24575dba1bd9474caec9fb8d</string>
+				<string>b6bf8a992033de50277c65d949fa6136aa7609d477c632723e166cbdf8b39a02</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>

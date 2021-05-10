@@ -39,11 +39,11 @@
 			<key>com.github.rtrouton.pkg.microsoftremotedesktop</key>
 			<dict>
 				<key>git_hash</key>
-				<string>f2c6acb5207ac9c77f7404b24ab3864cc0402b82</string>
+				<string>e215171875b92a605a3313adedb7e265eb757006</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftRemoteDesktop/MicrosoftRemoteDesktop.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>12cbd7b0afd0fadda0913a02582d892caa7f59b3f49086424e73861f065fee00</string>
+				<string>a1f945afcc31564416202d38cf7950819dd3817ade5212ea1accfc82054c4ba7</string>
 			</dict>
 		</dict>
 	</dict>

@@ -238,12 +238,12 @@
 			<key>URL</key>
 			<string>https://github.com/hjuutilainen/autopkg-virustotalanalyzer.git</string>
 		</dict>
-		<key>~Library/AutoPkg/RecipeRepos/com.github.autopkg.48kRAM-recipes</key>
+		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.48kRAM-recipes</key>
 		<dict>
 			<key>URL</key>
 			<string>https://github.com/autopkg/48kRAM-recipes</string>
 		</dict>
-		<key>~Library/AutoPkg/RecipeRepos/com.github.autopkg.neilmartin83-recipes</key>
+		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.neilmartin83-recipes</key>
 		<dict>
 			<key>URL</key>
 			<string>https://github.com/autopkg/neilmartin83-recipes</string>
