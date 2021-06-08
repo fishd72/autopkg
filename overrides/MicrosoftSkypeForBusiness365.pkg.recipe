@@ -37,11 +37,11 @@
 			<key>com.github.rtrouton.pkg.skypeforbusiness365</key>
 			<dict>
 				<key>git_hash</key>
-				<string>2d9cc8c17f18b443df6c18d5c1c50f6bcb1aa8d9</string>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftSkypeForBusiness365/MicrosoftSkypeForBusiness365.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>11076e9c11abbc3cc3a53087d9868f06d2742262c1484d18146ae8064f7ee909</string>
+				<string>0e63f0ef74929a495bc2987a16866439923d81b9e16d4c2f05898d93728f1b27</string>
 			</dict>
 		</dict>
 	</dict>

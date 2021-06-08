@@ -37,11 +37,11 @@
 			<key>com.github.rtrouton.pkg.microsoftedge</key>
 			<dict>
 				<key>git_hash</key>
-				<string>12cc401a1d6576ad100b47dce19d453f12407274</string>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftEdge/MicrosoftEdge.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>f7078fa6d94881e5418bb10d3c5175ac77d1db04e012456849a1ec4edb476457</string>
+				<string>e8c3b024a22b7e2af0e8bba1aaac2d92dfab30c3c76a6b0d50295cf289ffd183</string>
 			</dict>
 		</dict>
 	</dict>

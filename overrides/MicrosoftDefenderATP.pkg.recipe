@@ -39,11 +39,11 @@
 			<key>com.github.rtrouton.pkg.microsoftdefenderatp</key>
 			<dict>
 				<key>git_hash</key>
-				<string>de2ec3eb77045ade6f7dd52cb4a6d11dc7fe5ee7</string>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftDefenderATP/MicrosoftDefenderATP.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>fd0c22fa075f0d8659c10f9941ecc9ec5a842add38ab863d6eef4fb2b67eabe8</string>
+				<string>1e3001e0bf0201465a4c97906fdbcd681b4d413817c44440b0787d1c29e21126</string>
 			</dict>
 		</dict>
 	</dict>

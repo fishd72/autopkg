@@ -37,11 +37,11 @@
 			<key>com.github.rtrouton.pkg.microsoftteams</key>
 			<dict>
 				<key>git_hash</key>
-				<string>ccb1573111f263e913f8e4b81e1c1b5f2785abb7</string>
+				<string>90f11cb9012473899a2640d445553ebbe86882a6</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/MicrosoftTeams/MicrosoftTeams.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>accc99647dbff0587dd9e2df1920f798abb58dc7047f48ba7f8af202f52d97eb</string>
+				<string>84da0b088a863e1ab6f10437fbb5fed2886da74d5ef414e853ceedbb32ee6ab3</string>
 			</dict>
 		</dict>
 	</dict>

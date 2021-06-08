@@ -20,11 +20,11 @@
 			<key>io.github.hjuutilainen.download.SourceTree</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b27f942c707bc947adfe995add236701b693b332</string>
+				<string>e73e0b43ee8623f118a3273d26de48e0af41683f</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Atlassian/SourceTree.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>5b093ed21098bab0163316f8455687503b4965d5214556a76ca39ecd13b38285</string>
+				<string>8b00ce5762b004fd6973155d788aa767a511ecf76a31ecfe876e523d8ba28610</string>
 			</dict>
 			<key>io.github.hjuutilainen.pkg.SourceTree</key>
 			<dict>
