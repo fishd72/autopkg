@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.Nudge</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>Nudge</string>
+		<key>BUNDLE_ID</key>
+		<string>com.github.macadmins.Nudge</string>
+		<key>NAME</key>
+		<string>Nudge</string>
+		<key>PRERELEASE</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.fishd72.pkg.Nudge</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.erikng.download.Nudge</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bf58dd272f708ec954464e0b54ed0bf9e37e6491</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes/Nudge/Nudge.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>746e52e5d25a71db8a59776c3c0eb81027be6d5ab0ae82eb8d318fea0444ddde</string>
+			</dict>
+			<key>com.github.fishd72.pkg.Nudge</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.fishd72-recipes/Nudge/Nudge.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>399f954df7c14e2fb6252ca43294bf615318d74fac255794a38c1c83a53ddeef</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

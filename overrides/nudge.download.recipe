@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.download.nudge</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Nudge</string>
+		<key>PRERELEASE</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.erikng.download.Nudge</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.erikng.download.Nudge</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes/Nudge/nudge.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>746e52e5d25a71db8a59776c3c0eb81027be6d5ab0ae82eb8d318fea0444ddde</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -22,11 +22,11 @@
 			<key>com.github.homebysix.FindAndReplace/FindAndReplace</key>
 			<dict>
 				<key>git_hash</key>
-				<string>b9c1484128d1f5308bb66dcc4ca9e1be3536b0fc</string>
+				<string>dc086969ec741e70edcf24774d50fba627732496</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/FindAndReplace/FindAndReplace.py</string>
 				<key>sha256_hash</key>
-				<string>cf89378251379b98005e16119d69abe798f54150139645934a040689cd9213e6</string>
+				<string>bb19af8502c6531346e06767b128cee20532647d31b529af2deff1136e550bd8</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>

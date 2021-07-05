@@ -20,18 +20,20 @@
 			<key>com.github.homebysix.download.RoyalTSX</key>
 			<dict>
 				<key>git_hash</key>
-				<string>0a25ad1cda9e52d5b399fab417e1ff2d1d10c462</string>
+				<string>0a08fd519f78516e53dcb550942bc60f91d3294c</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Royal/RoyalTSX.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>c645eebfbfdddc85d181320f21e47aad06d292922a66855755331882a1261c25</string>
+				<string>25148f87581c3049205818f2e830da499fe41a99c9faa78e11b4001480fd1662</string>
 			</dict>
 			<key>com.github.homebysix.pkg.RoyalTSX</key>
 			<dict>
+				<key>git_hash</key>
+				<string>a26aa3f486024024ed3c022d97d79a7d408b46b7</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Royal/royaltsx.pkg.recipe</string>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Royal/RoyalTSX.pkg.recipe</string>
 				<key>sha256_hash</key>
-				<string>a5d3b56df48e2f0d959745c83690ef8713be13b60a12f9baa981d057c77588cd</string>
+				<string>b4e44e61ff60847eabd0834a7d648194271535f6fa5969a3bc8464a9ffc44d4b</string>
 			</dict>
 		</dict>
 	</dict>

@@ -8,6 +8,16 @@
 	<string>~/autopkg/overrides</string>
 	<key>RECIPE_REPOS</key>
 	<dict>
+		<key>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</key>
+		<dict>
+			<key>URL</key>
+			<string>https://github.com/autopkg/erikng-recipes</string>
+		</dict>
+		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.48kRAM-recipes</key>
+		<dict>
+			<key>URL</key>
+			<string>https://github.com/autopkg/48kRAM-recipes</string>
+		</dict>
 		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.MichalMMac-recipes</key>
 		<dict>
 			<key>URL</key>
@@ -158,6 +168,11 @@
 			<key>URL</key>
 			<string>https://github.com/autopkg/n8felton-recipes</string>
 		</dict>
+		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.neilmartin83-recipes</key>
+		<dict>
+			<key>URL</key>
+			<string>https://github.com/autopkg/neilmartin83-recipes</string>
+		</dict>
 		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes</key>
 		<dict>
 			<key>URL</key>
@@ -238,16 +253,6 @@
 			<key>URL</key>
 			<string>https://github.com/hjuutilainen/autopkg-virustotalanalyzer.git</string>
 		</dict>
-		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.48kRAM-recipes</key>
-		<dict>
-			<key>URL</key>
-			<string>https://github.com/autopkg/48kRAM-recipes</string>
-		</dict>
-		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.neilmartin83-recipes</key>
-		<dict>
-			<key>URL</key>
-			<string>https://github.com/autopkg/neilmartin83-recipes</string>
-		</dict>
 	</dict>
 	<key>RECIPE_SEARCH_DIRS</key>
 	<array>
@@ -302,7 +307,7 @@
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rderewianko-recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bochoven-recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.neilmartin83-recipes</string>
-
+		<string>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</string>
 	</array>
 </dict>
 </plist>
