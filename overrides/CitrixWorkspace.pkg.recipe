@@ -24,11 +24,11 @@
 			<key>com.github.rtrouton.download.citrixworkspace</key>
 			<dict>
 				<key>git_hash</key>
-				<string>0823d44cf538681401965137180de5f455eae41e</string>
+				<string>02730753ec9b1d9a4303d8c20ea7209174dfb313</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/CitrixWorkspace/CitrixWorkspace.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>c7c2051c4698f5e076f308f30793bd6e75aaa9cc4d94253edcaabdd7a4bf1b77</string>
+				<string>12f28a5a5c2e41987744322dc524f5e6b135d931d1f55f852e3acf57cfe8968b</string>
 			</dict>
 			<key>com.github.rtrouton.pkg.citrixworkspace</key>
 			<dict>
