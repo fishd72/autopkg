@@ -34,11 +34,11 @@
 			<key>com.github.novaksam.download.AndroidStudio</key>
 			<dict>
 				<key>git_hash</key>
-				<string>0785283e261d413bb1256d1c092b20716651b2de</string>
+				<string>de7d102f6fb22428561449050339617fae5822d1</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - Download/AndroidStudio.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>8f13531a8aa4011b927774882258e67e8779313301112a01682e4bb3e8e46cce</string>
+				<string>8b81a2d8eae6e8dc0f20523fbc1e5c903e3688c4a93178451525a86d30ca3d4a</string>
 			</dict>
 			<key>com.github.novaksam.pkg.AndroidStudio</key>
 			<dict>
