@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.evernote</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Evernote</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.pkg.Evernote</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Evernote</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8679230b1b67842fd15b08a1fde917d9f332a802</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Evernote/Evernote.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>fa8c65a422b684fec236f1175f03e5ecbd2462c5084d4d7cbdd24f7bb996a00f</string>
+			</dict>
+			<key>com.github.autopkg.pkg.Evernote</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Evernote/evernote.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>e941c5caeaf3ce1afd70000bceb37bc81a18b5de62c349bb83f4ae178168c73d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -5,10 +5,12 @@
 	<key>FAIL_RECIPES_WITHOUT_TRUST_INFO</key>
 	<true/>
 	<key>RECIPE_OVERRIDE_DIRS</key>
-	<string>~/autopkg/overrides</string>
+	<string>~/src/autopkg/overrides/</string>
+	<key>GITHUB_TOKEN</key>
+	<string>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</string>
 	<key>RECIPE_REPOS</key>
 	<dict>
-		<key>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</key>
+		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</key>
 		<dict>
 			<key>URL</key>
 			<string>https://github.com/autopkg/erikng-recipes</string>

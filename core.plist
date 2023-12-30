@@ -9,13 +9,24 @@
     </array>
     <key>recipes</key>
     <array>
-      <string>CitrixWorkspace.pkg</string>
+      <string>1PasswordCLI.pkg</string>
+      <string>1Password8.pkg</string>
+      <string>appcleaner.pkg</string>
+      <string>coconutBattery.pkg</string>
       <string>Desktoppr.pkg</string>
       <string>dockutil.pkg</string>
+      <string>DrawIO.pkg</string>
+      <string>evernote.pkg</string>
+      <string>Firefox.pkg</string>
+      <string>Handbrake.pkg</string>
+      <string>HexFiend.pkg</string>
+      <string>iTerm2.pkg</string>
+      <string>MicrosoftRemoteDesktop.pkg</string>
       <string>mySides.pkg</string>
-      <string>MicrosoftDefenderATP.pkg</string>
-      <string>NoMAD.pkg</string>
-      <string>Privileges.pkg</string>
+      <string>slack.pkg</string>
+      <string>SublimeText3.pkg</string>
+      <string>TheUnarchiver.pkg</string>
+      <string>VisualStudioCode.pkg</string>
     </array>
     <key>archive_directory</key>
     <string>/Users/Shared/AutoPKG</string>
