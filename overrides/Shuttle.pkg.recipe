@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.Shuttle</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>shuttle.Shuttle</string>
+		<key>GITHUB_REPO</key>
+		<string>fitztrev/shuttle</string>
+		<key>NAME</key>
+		<string>Shuttle</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.fishd72.pkg.Shuttle</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.fishd72.download.Shuttle</key>
+			<dict>
+				<key>git_hash</key>
+				<string>fc70eefc5c6d9954c85228d16c8ce7abae746cd7</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.fishd72-recipes/Shuttle/Shuttle.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>1a7d2aad52c6ce92e9372c9ca9326b769dbc54190792e84b7582a86143406644</string>
+			</dict>
+			<key>com.github.fishd72.pkg.Shuttle</key>
+			<dict>
+				<key>git_hash</key>
+				<string>fc70eefc5c6d9954c85228d16c8ce7abae746cd7</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.fishd72-recipes/Shuttle/Shuttle.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>182f837eb70c74f4a2d25223aa7b5fa6512154cf065fb307f610a8bc9833213e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

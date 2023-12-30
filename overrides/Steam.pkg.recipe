@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.Steam</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://steamcdn-a.akamaihd.net/client/installer/steam.dmg</string>
+		<key>NAME</key>
+		<string>Steam</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.moofit-recipes.pkg.Steam</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.moofit-recipes.download.Steam</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f1e2bbc643d42719501e360406d02d1a6f7a2676</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.moofit-recipes/Valve/steam.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>cfe94d91915264bf94e5b74c71b1486a67e73f329ca16d323ad64168aaf38261</string>
+			</dict>
+			<key>com.github.moofit-recipes.pkg.Steam</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.moofit-recipes/Valve/Steam.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>a395fa2e309942ae7a61c4725f73fd6037a1ea30d5d3c165cea7f1cdd139e86d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
