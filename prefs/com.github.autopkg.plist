@@ -6,8 +6,8 @@
 	<true/>
 	<key>RECIPE_OVERRIDE_DIRS</key>
 	<string>~/src/autopkg/overrides/</string>
-	<key>GITHUB_TOKEN</key>
-	<string>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</string>
+	<key>GITHUB_TOKEN_PATH</key>
+	<string>~/.autopkg_gh_token</string>
 	<key>RECIPE_REPOS</key>
 	<dict>
 		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</key>
