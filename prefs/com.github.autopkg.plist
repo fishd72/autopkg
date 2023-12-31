@@ -4,16 +4,21 @@
 <dict>
 	<key>FAIL_RECIPES_WITHOUT_TRUST_INFO</key>
 	<true/>
-	<key>RECIPE_OVERRIDE_DIRS</key>
-	<string>~/src/autopkg/overrides/</string>
 	<key>GITHUB_TOKEN_PATH</key>
 	<string>~/.autopkg_gh_token</string>
+	<key>RECIPE_OVERRIDE_DIRS</key>
+	<string>~/src/autopkg/overrides/</string>
 	<key>RECIPE_REPOS</key>
 	<dict>
-		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</key>
+		<key>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.flammable-recipes</key>
 		<dict>
 			<key>URL</key>
-			<string>https://github.com/autopkg/erikng-recipes</string>
+			<string>https://github.com/autopkg/flammable-recipes</string>
+		</dict>
+		<key>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.haircut-recipes</key>
+		<dict>
+			<key>URL</key>
+			<string>https://github.com/autopkg/haircut-recipes</string>
 		</dict>
 		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.48kRAM-recipes</key>
 		<dict>
@@ -84,6 +89,11 @@
 		<dict>
 			<key>URL</key>
 			<string>https://github.com/autopkg/dataJAR-recipes</string>
+		</dict>
+		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</key>
+		<dict>
+			<key>URL</key>
+			<string>https://github.com/autopkg/erikng-recipes</string>
 		</dict>
 		<key>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.fishd72-recipes</key>
 		<dict>
@@ -258,7 +268,7 @@
 	</dict>
 	<key>RECIPE_SEARCH_DIRS</key>
 	<array>
-		<string>.</string>
+		<string>./recipes</string>
 		<string>~/Library/AutoPkg/Recipes</string>
 		<string>/Library/AutoPkg/Recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes</string>
@@ -310,6 +320,8 @@
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bochoven-recipes</string>
 		<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.neilmartin83-recipes</string>
 		<string>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</string>
+		<string>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.haircut-recipes</string>
+		<string>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.flammable-recipes</string>
 	</array>
 </dict>
 </plist>

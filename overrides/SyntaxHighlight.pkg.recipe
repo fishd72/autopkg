@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.SyntaxHighlight</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Syntax Highlight</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.haircut.pkg.SyntaxHighlight</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.flammable.download.SyntaxHighlight</key>
+			<dict>
+				<key>git_hash</key>
+				<string>18c4e7e584ea0a21d3db7ee8560c14b2178fc6df</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.flammable-recipes/Syntax Highlight/Syntax Highlight.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>a16ca8582d44886d94e81eeeb2a201ee00764e8bebc86aef14e909af8d91acf5</string>
+			</dict>
+			<key>com.github.haircut.pkg.SyntaxHighlight</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e597452675ca6117f186a0c5d998fc648ecafd48</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.haircut-recipes/SyntaxHighlight/SyntaxHighlight.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>6a0676eced79ab327730b48f2aaac4fd62e0226be419401695d0c83659edb440</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
