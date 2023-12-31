@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.fastfetch</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Fastfetch</string>
+		<key>REPO</key>
+		<string>fastfetch-cli</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.fishd72.pkg.Fastfetch</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.fishd72.download.fastfetch</key>
+			<dict>
+				<key>path</key>
+				<string>~/src/autopkg/recipes/fastfetch.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>dc1fc617b8d715d356a31535ed9e954ac7a682a430dc3e85f5d06bfb9bcfe46d</string>
+			</dict>
+			<key>com.github.fishd72.pkg.Fastfetch</key>
+			<dict>
+				<key>path</key>
+				<string>~/src/autopkg/recipes/fastfetch.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>d5f345cff45834a46e3773665db4a7d4f1cecece004406a26ad8835581979a84</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

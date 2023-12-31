@@ -18,6 +18,7 @@
       <string>dockutil.pkg</string>
       <string>DrawIO.pkg</string>
       <string>evernote.pkg</string>
+      <string>Fastfetch.pkg</string>
       <string>Firefox.pkg</string>
       <string>Handbrake.pkg</string>
       <string>HexFiend.pkg</string>
@@ -33,6 +34,7 @@
       <string>SyntaxHighlight.pkg</string>
       <string>TheUnarchiver.pkg</string>
       <string>VisualStudioCode.pkg</string>
+      <string>yt-dlp.pkg</string>
     </array>
     <key>archive_directory</key>
     <string>/Users/Shared/AutoPKG</string>

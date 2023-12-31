@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.yt-dlp</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>yt-dlp</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.fishd72.pkg.yt-dlp</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.fishd72.download.yt-dlp</key>
+			<dict>
+				<key>path</key>
+				<string>~/src/autopkg/recipes/yt-dlp.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>bf7bbe2ed40c4af7129b9ecb99e02255e55875d08f1e172bf8bd1b5d9f153830</string>
+			</dict>
+			<key>com.github.fishd72.pkg.yt-dlp</key>
+			<dict>
+				<key>path</key>
+				<string>~/src/autopkg/recipes/yt-dlp.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5304dac8bd06ba4be51d264ffc18413e56288e943696ad3ffabaaf0f9f76d3c8</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
