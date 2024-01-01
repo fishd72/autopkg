@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.Synology Drive Client</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Synology Drive Client</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.ahousseini-recipes.pkg.SynologyDriveClient</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.ahousseini-recipes.download.SynologyDriveClient</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d449b812360693ec47b93d12ffd74b0385594755</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.ahousseini-recipes/Synology/Synology Drive Client.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9d6c8f0d8c6282226cac950fe6361fb539eb83116409d7f221c72effd83de1c0</string>
+			</dict>
+			<key>com.github.ahousseini-recipes.pkg.SynologyDriveClient</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d449b812360693ec47b93d12ffd74b0385594755</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.ahousseini-recipes/Synology/Synology Drive Client.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>8e97fa1de0e4fed83e8d10dec8d7968ce2f042c7594f5d298daecd4a9167368b</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

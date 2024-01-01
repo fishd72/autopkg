@@ -10,6 +10,11 @@
 	<string>~/src/autopkg/overrides/</string>
 	<key>RECIPE_REPOS</key>
 	<dict>
+		<key>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.ahousseini-recipes</key>
+		<dict>
+			<key>URL</key>
+			<string>https://github.com/autopkg/ahousseini-recipes</string>
+		</dict>
 		<key>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.flammable-recipes</key>
 		<dict>
 			<key>URL</key>
@@ -322,6 +327,7 @@
 		<string>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.erikng-recipes</string>
 		<string>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.haircut-recipes</string>
 		<string>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.flammable-recipes</string>
+		<string>/Users/fishd/Library/AutoPkg/RecipeRepos/com.github.autopkg.ahousseini-recipes</string>
 	</array>
 </dict>
 </plist>

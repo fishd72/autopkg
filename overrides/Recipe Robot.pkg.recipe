@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.Recipe Robot</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Recipe Robot</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.pkg.RecipeRobot</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.RecipeRobot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>968b3eac82b42016e3c9513fcf8a136ed8d1f795</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Elliot Jordan/Recipe Robot.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>f8498e75b06c0c2d540851e8f0718a43349b713f6d0cd575b700798491c50937</string>
+			</dict>
+			<key>com.github.homebysix.pkg.RecipeRobot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>49e6a3372651c024a7e4147a205707a74b98a6b1</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Elliot Jordan/Recipe Robot.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>ad5051403a18a61da1312fd508e4f0451d1d12297abd4d7e536221708d949c23</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
